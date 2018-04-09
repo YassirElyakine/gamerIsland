@@ -1,0 +1,36 @@
+.myNav {
+    display: flex;
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+    transition: 100ms all linear;
+    background-color: #fff;
+}
+#home, #trending, #rated {
+    flex-basis: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    transition: 100ms all linear;
+}
+#home:hover, #trending:hover, #rated:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+#trending {
+    order: 1;
+}
+#home {
+    order: 2;
+}
+#rated {
+    order: 3;
+}
+.jumbotron {
+    background-image: url('logo.png');
+    background-position: center;
+    height: 350px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+}

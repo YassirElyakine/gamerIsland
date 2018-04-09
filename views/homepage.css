@@ -1,0 +1,27 @@
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+.firstSection, .secondSection, .thirdSection {
+    padding: 10px;
+    flex-basis: 25%;
+    margin-top: 25px;
+}
+.intro .title {
+    text-align: center;
+    font-size: 25px;
+    background-color: #fff;
+    text-decoration: underline;
+}
+.description {
+    padding: 10px;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 20px;
+    border-top: 0;
+    background-color: #fff;
+}
+.fa-facebook {
+    color: lightblue;
+    cursor: pointer;
+}
